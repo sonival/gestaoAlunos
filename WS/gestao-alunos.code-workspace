@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../backend/gestao-alunos"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	},
+	"extensions": {
+		"recommendations": [
+			"vscjava.vscode-maven",
+			"vscjava.vscode-lombok",
+			"vscjava.vscode-java-debug"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "java",
+				"name": "Gestao Alunos Debug",
+				"request": "launch",
+				"mainClass": "br.com.demo.gestaoalunos.GestaoAlunosApplication"
+			}
+			]
+	}
+}
